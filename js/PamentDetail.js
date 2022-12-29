@@ -50,7 +50,7 @@ $('.input-cart-number').on('keyup change', function(){
   document.querySelector(".btn").addEventListener("click", func)
 
   function func() {
-    
-        window.location.href="index1.html"
- 
+      setTimeout(()=>{
+        window.location.href="./index1.html"
+  })
   }
